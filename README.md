@@ -13,24 +13,25 @@ An ember wrapper for the [monaco-editor](https://github.com/Microsoft/monaco-edi
 
 ## Sample
 
-It's simply VS Code. Keybindings work as well as other features. For example, cmd+d for multiple selections and multiple edits, intellisense, find all references, etc. 
+It's simply VS Code. Keybindings work as well as other features. For example, cmd+d for multiple selections and multiple edits, intellisense, find all references, etc.
 
 ![monaco-editor](https://cloud.githubusercontent.com/assets/47388/17669451/8a849b98-62c2-11e6-9915-5bcbb4b5f11e.gif)
 
 ## Installation
 
-* `git clone` this repository
+* `git clone <repository-url>` this repository
+* `cd ember-monaco-editor`
 * `npm install`
 * `bower install`
 
 ## Running
 
 * `ember serve`
-* Visit your app at http://localhost:4200.
+* Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ## Running Tests
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
+* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
